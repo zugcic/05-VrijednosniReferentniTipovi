@@ -58,11 +58,15 @@
     <Compile Include="TestZapakiravanja.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\GeneričkaLista\GeneričkaLista.csproj">
+      <Project>{b1e23027-de99-41f5-8b1a-048b8c45f0e9}</Project>
+      <Name>GeneričkaLista</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Otpakiravanje\Otpakiravanje.csproj">
       <Project>{9da01cd2-24bf-4935-93ff-b210b70826ad}</Project>
       <Name>Otpakiravanje</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Pridruzivanje\Pridruživanje.csproj">
+    <ProjectReference Include="..\Pridruživanje\Pridruživanje.csproj">
       <Project>{27d817b5-3019-4398-95d2-f330d92dba36}</Project>
       <Name>Pridruživanje</Name>
     </ProjectReference>
