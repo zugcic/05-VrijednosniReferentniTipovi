@@ -14,8 +14,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zapakiravanje", "Zapakirava
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otpakiravanje", "Otpakiravanje\Otpakiravanje.csproj", "{9DA01CD2-24BF-4935-93FF-B210B70826AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerickaLista", "GenerickaLista\GenerickaLista.csproj", "{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00", "00", "{CF4AC114-7A94-4BB8-BC2D-F2ED3C0FD432}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{E9AEAFAA-AFC3-4EAB-897E-8CF0889E50F9}"
@@ -25,6 +23,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03", "03", "{BC96D18A-E130-4A99-854C-1A6509BB85E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testovi", "Testovi\Testovi.csproj", "{3543BBDC-ECD4-47AC-ADE5-BEED3BFE8116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneričkaLista", "GeneričkaLista\GeneričkaLista.csproj", "{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,14 +44,14 @@ Global
 		{9DA01CD2-24BF-4935-93FF-B210B70826AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DA01CD2-24BF-4935-93FF-B210B70826AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DA01CD2-24BF-4935-93FF-B210B70826AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3543BBDC-ECD4-47AC-ADE5-BEED3BFE8116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3543BBDC-ECD4-47AC-ADE5-BEED3BFE8116}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3543BBDC-ECD4-47AC-ADE5-BEED3BFE8116}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3543BBDC-ECD4-47AC-ADE5-BEED3BFE8116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
