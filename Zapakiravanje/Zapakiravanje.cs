@@ -3,29 +3,56 @@ using System.Collections;
 
 namespace Vsite.CSharp
 {
-    // vrijednosni tip zbog 'struct'
+    class RefTip
+    {
+        public int X;
+    }
+
     struct VrijednTip
     {
         public int X;
     }
 
-    class Program
+    public class Zapakiravanje
     {
-        static void Main(string[] args)
+        public static void DodavanjeKlaseUArrayList()
         {
             ArrayList lista = new ArrayList();
-            VrijednTip vt;  // objekt na stogu
+            RefTip rt = new RefTip();
 
             for (int i = 0; i < 10; ++i)
             {
-                vt.X = i;     // incijalizira polje u vrijednosni tipu
-                lista.Add(vt);  // pakira vrijednosni tip i dodaje referencu na njega u listu
+                rt.X = i;
+                lista.Add(rt);
             }
 
-            foreach (VrijednTip v in lista)
+            // TODO: Dodati petlju koja će ispisati član X za svaki element kolekcije lista.
+
+        }
+
+        public static void DodavanjeStruktureUArrayList()
+        {
+            ArrayList lista = new ArrayList();
+            VrijednTip vt = new VrijednTip();
+
+            for (int i = 0; i < 10; ++i)
             {
-                Console.WriteLine(v.X); // ispisat će: 0, 1, 2...9
+                vt.X = i;
+                lista.Add(vt);
             }
+
+            // TODO: Dodati petlju koja će ispisati član X za svaki element kolekcije lista.
+
+        }
+
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Dodavanje klase");
+            DodavanjeKlaseUArrayList();
+
+            Console.WriteLine("Dodavanje strukture");
+            DodavanjeStruktureUArrayList();
 
             Console.WriteLine("GOTOVO!!!");
             Console.ReadLine();

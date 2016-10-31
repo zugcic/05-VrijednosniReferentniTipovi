@@ -13,10 +13,10 @@ namespace Vsite.CSharp
         static void Main(string[] args)
         {
             List<VrijednTip> lista = new List<VrijednTip>();
-            VrijednTip vt;  // objekt na stogu
+            VrijednTip vt = new VrijednTip();
             for (int i = 0; i < 10; ++i)
             {
-                vt.X = i;     // incijalizira polje u vrijednosnom tipu
+                vt.X = i;
                 lista.Add(vt);
             }
 
@@ -25,8 +25,8 @@ namespace Vsite.CSharp
                 Console.WriteLine(v.X); // ispisat će: 0, 1, 2...9
             }
 
+            Console.WriteLine("GOTOVO!!!");
             Console.ReadKey();
-
         }
     }
 }

@@ -4,12 +4,6 @@ VrijednosniReferentiTip
 Pridruživanje
 -------------
 Usporedba pridruživanja objekata vrijednosnog i referentnog tipa.
-Prilikom pridruživanjem vrijednosnih tipova stvara se preslika -
-ako naknadno mijenjamo polje u jednom objektu, vrijednosti u 
-drugom objektu ostaju nepromijenjene.
-Prilikom pridruživanja referentih tipova, radi se "plitka preslika"
-(preslikavaju se samo reference). Zbog toga će promjene na jednom
-objektu automatski povlačiti promjene na drugom.
 
 
 Zapakiravanje

@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8733E3C6-AE3E-4089-902A-4D5E1E3F7B2F}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{8733E3C6-AE3E-4089-902A-4D5E1E3F7B2F}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe.txt = ReadMe.txt
 	EndProjectSection
@@ -13,6 +15,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otpakiravanje", "Otpakiravanje\Otpakiravanje.csproj", "{9DA01CD2-24BF-4935-93FF-B210B70826AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerickaLista", "GenerickaLista\GenerickaLista.csproj", "{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00", "00", "{CF4AC114-7A94-4BB8-BC2D-F2ED3C0FD432}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{E9AEAFAA-AFC3-4EAB-897E-8CF0889E50F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{1DF0A043-3B44-4C62-95BB-6A8036CA1D2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03", "03", "{BC96D18A-E130-4A99-854C-1A6509BB85E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testovi", "Testovi\Testovi.csproj", "{3543BBDC-ECD4-47AC-ADE5-BEED3BFE8116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,8 +48,18 @@ Global
 		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3543BBDC-ECD4-47AC-ADE5-BEED3BFE8116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3543BBDC-ECD4-47AC-ADE5-BEED3BFE8116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3543BBDC-ECD4-47AC-ADE5-BEED3BFE8116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3543BBDC-ECD4-47AC-ADE5-BEED3BFE8116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27D817B5-3019-4398-95D2-F330D92DBA36} = {CF4AC114-7A94-4BB8-BC2D-F2ED3C0FD432}
+		{877C474B-0B4C-495A-A73B-DE5470EC3DBB} = {E9AEAFAA-AFC3-4EAB-897E-8CF0889E50F9}
+		{9DA01CD2-24BF-4935-93FF-B210B70826AD} = {1DF0A043-3B44-4C62-95BB-6A8036CA1D2B}
+		{B1E23027-DE99-41F5-8B1A-048B8C45F0E9} = {BC96D18A-E130-4A99-854C-1A6509BB85E7}
 	EndGlobalSection
 EndGlobal
