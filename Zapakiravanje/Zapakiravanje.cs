@@ -17,17 +17,22 @@ namespace Vsite.CSharp
     {
         public static void DodavanjeKlaseUArrayList()
         {
-            ArrayList lista = new ArrayList();
-            RefTip rt = new RefTip();
+            ArrayList lista = new ArrayList();//referentni tip koji se smješta na heap
+            RefTip rt = new RefTip();         //
 
             for (int i = 0; i < 10; ++i)
             {
-                rt.X = i;
+                rt.X = i;   //kopiramo adrese sa stacka koje pokazuju uvijek na isti objekt
                 lista.Add(rt);
             }
 
-            // TODO: Dodati petlju koja će ispisati član X za svaki element kolekcije lista.
+            // Dodati petlju koja će ispisati član X za svaki element kolekcije lista.
+            foreach (RefTip r in lista)
+            {
 
+                Console.WriteLine(r.X);
+                
+            }
         }
 
         public static void DodavanjeStruktureUArrayList()
@@ -41,8 +46,13 @@ namespace Vsite.CSharp
                 lista.Add(vt);
             }
 
-            // TODO: Dodati petlju koja će ispisati član X za svaki element kolekcije lista.
+            // Dodati petlju koja će ispisati član X za svaki element kolekcije lista.
+            foreach (VrijednTip r in lista)
+            {
 
+                Console.WriteLine(r.X);
+
+            }
         }
 
 
